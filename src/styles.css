@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.date {
+  font-style: italic;
+  color: rgb(165, 165, 165);
+  font-size: 9px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(184, 184, 184);
+}
+
+.todo-body {
+  padding: 5%;
+  border: 1px solid grey;
+  background: white;
+}
+
+.todos {
+  background: #4c9bcf;
+  min-height: 100vh;
+  padding: 10%;
+}
+
+.todo:hover {
+  cursor: pointer;
+}
+
+#display-todos {
+  margin-top: 4%;
+  background: #e3eff5;
+}
